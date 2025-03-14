@@ -14,7 +14,8 @@ public class Program {
 		int column = sc.nextInt();
 		Position position = new Position(row, column);
 
-		System.out.print("Posicao: "+position);
+		System.out.print("Posicao: "+position);  
+		sc.close();
 	}
 
 }
